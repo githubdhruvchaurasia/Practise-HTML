@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Student Card for Tech Fusion Club</h1>
+      <form action="form.php">
+        <input type="text" placeholder="Enter your Name" /> 
+        <br>
+        <br>
+
+        <label for="SectionGroupA"></label>
+          <input
+            type="radio"
+            value="Section A"
+            name="Section"
+            id="SectionGroupA">
+          Section A
+
+        <label for="SectionGroupB"></label>
+        <input
+          type="radio"
+          value="Section B"
+          name="Section"
+          id="SectionGroupB">
+        Section B
+
+        <label for="SectionGroupC"></label>
+        <input
+          type="radio"
+          value="Section C"
+          name="Section"
+          id="SectionGroupC"/>
+        Section C
+        <br>
+        <br>
+
+      <label for="canteen">Canteen Card </label>
+        <input type="checkbox" name="Food" id="canteen" />  
+        <br>
+        <br>
+
+        <textarea name="About yourself" id="Explain" cols="30" rows="10" placeholder="Why you want to join Tech fusion Club?"></textarea>
+        <br>
+
+        <select name="Department" id="Department"> 
+            <option value="No-Department"> Select your Department </option>
+            <option value="DCSIS">DCSIS</option>
+            <option value="MEDIA">MEDIA</option>
+            <option value="MEDICAL">MEDICAL</option>
+            <option value="LAW">LAW</option>
+        /select>
+s
+    </div>
+  </body>
+</html>
